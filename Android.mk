@@ -15,6 +15,7 @@ LOCAL_SRC_FILES:= \
 LOCAL_C_INCLUDES += \
 	$(LOCAL_PATH)
 LOCAL_CFLAGS += \
+	-Wno-error \
 	-DHAVE_CONFIG_H \
 	-DPROGRAM=\"less\" \
 	-DPACKAGE=\"less\" \
